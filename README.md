@@ -42,3 +42,12 @@ Antes de utilizar o projeto certifique-se de estar utilizando as seguintes tecno
 
 1. Clone este repositório
    
+ ```
+bash
+   git clone https://github.com/debCristina/literalura.git
+```
+2. Configure o banco de dados PostgreSQL no arquivo `aplication.properties`
+   
+4. 
+   - Configure as variáveis de ambiente 
+
