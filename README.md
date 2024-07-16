@@ -77,8 +77,11 @@ Este foi um projeto  desenvolvido como parte da especialização em back-end pel
     <img src="https://github.com/user-attachments/assets/b03c2893-4bba-4862-9223-a19940a8c47e">
 </p>
 
-
-
-
 # Autor
 Este projeto foi desenvolvido por Débora Ferreira
+
+# Badge
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/28161ad0-feda-4212-89ea-8c58053d4e35">
+</p>
+
