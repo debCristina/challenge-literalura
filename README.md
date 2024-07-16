@@ -46,8 +46,39 @@ Antes de utilizar o projeto certifique-se de estar utilizando as seguintes tecno
 bash
    git clone https://github.com/debCristina/literalura.git
 ```
-2. Configure o banco de dados PostgreSQL no arquivo `aplication.properties`
+2. Configure seu PostgreSQL criando um banco de dados para a aplicação
    
-4. 
-   - Configure as variáveis de ambiente 
+3.  No arquivo `src/main/resources/aplication.properties` configure com suas informações
 
+   ```
+   properties
+      spring.datasource.url=jdbc:postgresql://${DB_HOST}/${DB_LITERALURA_NAME}
+      spring.datasource.username=${DB_USER}
+      spring.datasource.password=${DB_PASSWORD}
+      spring.datasource.driver-class-name=org.postgresql.Driver
+      hibernate.dialect=org.hibernate.dialect.HSQLDialect
+
+   ```
+   
+- Configure as variáveis de ambiente ${DB_HOST}, ${DB_LITERALURA_NAME}, ${DB_USER} e ${DB_PASSWORD} pelos valores específicos do seu ambiente de desenvolvimento.
+- Abra o projeto em sua IDE java preferida.
+- Execute a aplicação e aproveite as funcionalidades disponíveis.
+
+# Minha experiência
+Desenvolver este projeto foi um desafio muito enriquecedor, onde pude aplicar e aprimorar significativamente minhas habilidades em Java. Esta jornada me proporcionou uma excelente oportunidade para explorar profundamente o desenvolvimento utilizando Spring Framework, além de me familiarizar com conceitos avançados de integração de banco de dados e APIs externas como a Gutendex. Concluir esta etapa me deixa muito satisfeita, e estou motivada a continuar explorando os recursos disponíveis para continuar aprimorando minhas habilidades como desenvolvedora.
+
+# Contribuíções
+Contribuíções são sempre bem-vindas para enriquecer ainda mais o projeto.
+
+# Envolvidos
+Este foi um projeto  desenvolvido como parte da especialização em back-end pelo programa ONE (ORACLE NEXT EDUCATION)  parceria entre Oracle e Alura Latam.
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/6d793c82-35e7-4116-a768-cee846791281">
+    <img src="https://github.com/user-attachments/assets/b03c2893-4bba-4862-9223-a19940a8c47e">
+</p>
+
+
+
+
+# Autor
+Este projeto foi desenvolvido por Débora Ferreira
